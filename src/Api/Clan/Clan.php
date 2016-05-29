@@ -17,6 +17,7 @@ use ClashOfClans\Api\Location\Location;
  * @method int warWins()
  * @method int clanPoints()
  * @method MemberList memberList()
+ * @method WarLog warLog()
  * @method int rank()
  * @method int previousRank()
  */
