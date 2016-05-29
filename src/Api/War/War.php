@@ -1,11 +1,10 @@
 <?php
 
 
-namespace ClashOfClans\Api\Clan;
+namespace ClashOfClans\Api\War;
 
 
 use ClashOfClans\Api\AbstractResource;
-use ClashOfClans\Api\League\League;
 
 class War extends AbstractResource
 {

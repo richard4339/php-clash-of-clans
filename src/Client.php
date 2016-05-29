@@ -9,6 +9,8 @@ use ClashOfClans\Api\League\League;
 use ClashOfClans\Api\Location\Location;
 use ClashOfClans\Api\Location\LocationList;
 use ClashOfClans\Api\ResponseMediator;
+use ClashOfClans\Api\War\War;
+use ClashOfClans\Api\War\WarLog;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
 
@@ -34,6 +36,13 @@ class Client
         $response = $this->request('clans/' . urlencode($tag));
 
         return Clan::makeFromArray($response);
+    }
+
+    public function getWarLog($tag) {
+
+        $response = $this->request('clans/' . urlencode($tag) . '/warlog/');
+
+        return WarLog::makeFromArray($response);
     }
 
     /**

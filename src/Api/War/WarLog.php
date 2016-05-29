@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ClashOfClans\Api\Clan;
+namespace ClashOfClans\Api\War;
 
 
 use ClashOfClans\Api\AbstractResource;
