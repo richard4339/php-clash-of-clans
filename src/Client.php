@@ -38,11 +38,17 @@ class Client
         return Clan::makeFromArray($response);
     }
 
-    public function getWarLog($tag) {
+    /**
+     * @param string $tag
+     * @return War[]
+     */
+    public function getWarLog($tag, $params = null) {
 
-        $response = $this->request('clans/' . urlencode($tag) . '/warlog/');
+        $response = $this->request('clans/' . urlencode($tag) . '/warlog?' . http_build_query($params));
 
-        return WarLog::makeFromArray($response);
+        return array_map(function($item){
+            return War::makeFromArray($item);
+        }, $response['items']);
     }
 
     /**
@@ -50,7 +56,7 @@ class Client
      * @see Documentation at https://developer.clashofclans.com/
      *
      * @param $params
-     * @return array
+     * @return Clan[]
      */
     public function getClans($params)
     {
@@ -76,7 +82,7 @@ class Client
     /**
      * Get list of all locations
      *
-     * @return array
+     * @return Location[]
      */
     public function getLocations()
     {

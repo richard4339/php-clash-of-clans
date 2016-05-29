@@ -5,27 +5,31 @@ namespace ClashOfClans\Api\War;
 
 
 use ClashOfClans\Api\AbstractResource;
+use ClashOfClans\Api\Clan\Badge;
 use ClashOfClans\Api\Location\Location;
 
 /**
  * @method string name()
  * @method string tag()
- * @method string type()
- * @method Location location()
- * @method string warFrequency()
  * @method int clanLevel()
- * @method int warWins()
- * @method int clanPoints()
- * @method MemberList memberList()
- * @method WarLog warLog()
- * @method int rank()
- * @method int previousRank()
+ * @method int attacks()
+ * @method int stars()
+ * @method float destructionPercentage()
+ * @method int expEarned()
  */
 
 class Clan extends AbstractResource
 {
 
     protected $casts = [
-        'warLog' => WarLog::class
+        'badgeUrls' => Badge::class
     ];
+
+    /**
+     * @return Badge|null
+     */
+    public function badge()
+    {
+        return $this->get('badgeUrls');
+    }
 }
