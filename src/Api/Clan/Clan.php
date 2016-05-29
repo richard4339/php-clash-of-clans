@@ -27,7 +27,8 @@ class Clan extends AbstractResource
     protected $casts = [
         'location' => Location::class,
         'badgeUrls' => Badge::class,
-        'memberList' => MemberList::class
+        'memberList' => MemberList::class,
+        'warLog' => WarLog::class
     ];
 
     /**
