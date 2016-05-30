@@ -8,7 +8,6 @@ use ClashOfClans\Api\AbstractResource;
 
 /**
  * @method string result()
- * @method string endTime()
  * @method int teamSize()
  * @method Clan clan()
  * @method Clan opponent()
@@ -19,10 +18,14 @@ class War extends AbstractResource
         'opponent' => Clan::class,
         'clan' => Clan::class
     ];
-    
+
+    /**
+     * Helper method which gets all of the possible values
+     * @return array
+     */
     public function getAllValues() {
         return array('result' => $this->result(),
-            'endTime' => $this->endTime(),
+            'endTime' => $this->formattedEndTime(),
             'teamSize' => $this->teamSize(),
             'clanName' => $this->clan()->name(),
             'clanTag' => $this->clan()->tag(),
@@ -42,6 +45,27 @@ class War extends AbstractResource
             'opponentBadgeSmall' => $this->opponent()->badge()->small(),
             'opponentBadgeMedium' => $this->opponent()->badge()->medium(),
             'opponentBadgeLarge' => $this->opponent()->badge()->large()
-            );
+        );
     }
+
+    /**
+     * Formats the ending time using the supplied format
+     *
+     * @internal The Clash of Clans API returns their date in a format not directly parseable by PHP. This function makes the date parseable by PHP
+     *
+     * @param string $format
+     * @return bool|string
+     */
+    public function formattedEndTime($format = DATE_ATOM) {
+        $a = str_split($this->endTime());
+
+        array_splice($a, 4, 0, '-');
+        array_splice($a, 7, 0, '-');
+        array_splice($a, 13, 0, ':');
+        array_splice($a, 16, 0, ':');
+
+        return date($format, strtotime(implode("", $a)));
+    }
+
+
 }
