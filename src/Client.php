@@ -44,7 +44,15 @@ class Client
      */
     public function getWarLog($tag, $params = null) {
 
-        $response = $this->request('clans/' . urlencode($tag) . '/warlog?' . http_build_query($params));
+        $url = 'clans/' . urlencode($tag) . '/warlog?';
+
+        if(!is_null($params)) {
+            if(is_array($params)) {
+                $url .= http_build_query($params);
+            }
+        }
+
+        $response = $this->request($url);
 
         return array_map(function($item){
             return War::makeFromArray($item);
