@@ -14,8 +14,12 @@ use ClashOfClans\Api\Location\Location;
  * @method Location location()
  * @method string warFrequency()
  * @method int clanLevel()
- * @method int warWins()
  * @method int clanPoints()
+ * @method int requiredTrophies()
+ * @method int warWins()
+ * @method int warLosses()
+ * @method int warTies()
+ * @method int warWinStreak()
  * @method MemberList[] memberList()
  * @method int rank()
  * @method int previousRank()
@@ -41,5 +45,10 @@ class Clan extends AbstractResource
     public function membersCount()
     {
         return $this->get('members');
+    }
+
+    public function warTotal()
+    {
+        return $this->get('warWins') + $this->get('warLosses') + $this->get('warTies');
     }
 }
