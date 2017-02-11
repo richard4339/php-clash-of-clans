@@ -14,12 +14,26 @@ use ClashOfClans\Api\War\WarLog;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
 
+/**
+ * Class Client
+ * @package ClashOfClans
+ */
 class Client
 {
+    /**
+     * @var
+     */
     protected $httpClient;
 
+    /**
+     * @var
+     */
     protected $token;
 
+    /**
+     * Client constructor.
+     * @param $token
+     */
     public function __construct($token)
     {
         $this->token = $token;
@@ -133,6 +147,19 @@ class Client
     }
 
     /**
+     * Get full details for a specific player
+     *
+     * @param string $tag
+     * @return Player
+     */
+    public function getPlayer($tag)
+    {
+        $response = $this->request('players/' . urlencode($tag));
+
+        return Player::makeFromArray($response);
+    }
+
+    /**
      * @param $url
      * @return array
      */
@@ -157,6 +184,10 @@ class Client
         return $this->httpClient;
     }
 
+    /**
+     * @param ClientInterface $client
+     * @return $this
+     */
     public function setHttpClient(ClientInterface $client)
     {
         $this->httpClient = $client;
