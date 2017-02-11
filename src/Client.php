@@ -4,7 +4,7 @@
 namespace ClashOfClans;
 
 use ClashOfClans\Api\Clan\Clan;
-use ClashOfClans\Api\Clan\Player;
+use ClashOfClans\Api\Player\Player;
 use ClashOfClans\Api\League\League;
 use ClashOfClans\Api\Location\Location;
 use ClashOfClans\Api\Location\LocationList;
