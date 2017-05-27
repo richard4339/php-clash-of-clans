@@ -1,7 +1,7 @@
 <?php
 
 
-use ClashOfClans\Api\Clan\Badge;
+use ClashOfClans\Api\Clan\URLContainer;
 use ClashOfClans\Api\Clan\Clan;
 use ClashOfClans\Api\Clan\MemberList;
 use ClashOfClans\Api\Location\Location;
@@ -63,7 +63,7 @@ class ClanTest extends PHPUnit_Framework_TestCase
     public function testItProperlyCastsObjectsDuringAssigningProperties()
     {
         $this->assertInstanceOf(Location::class, $this->clan->location());
-        $this->assertInstanceOf(Badge::class, $this->clan->badge());
+        $this->assertInstanceOf(URLContainer::class, $this->clan->badge());
         $this->assertInstanceOf(MemberList::class, $this->clan->memberList());
     }
 
