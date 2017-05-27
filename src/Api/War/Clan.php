@@ -5,7 +5,7 @@ namespace ClashOfClans\Api\War;
 
 
 use ClashOfClans\Api\AbstractResource;
-use ClashOfClans\Api\Clan\Badge;
+use ClashOfClans\Api\Clan\URLContainer;
 use ClashOfClans\Api\Location\Location;
 
 /**
@@ -22,11 +22,11 @@ class Clan extends AbstractResource
 {
 
     protected $casts = [
-        'badgeUrls' => Badge::class
+        'badgeUrls' => URLContainer::class
     ];
 
     /**
-     * @return Badge|null
+     * @return URLContainer|null
      */
     public function badge()
     {

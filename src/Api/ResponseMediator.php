@@ -1,8 +1,6 @@
 <?php
 
-
 namespace ClashOfClans\Api;
-
 
 use GuzzleHttp\Psr7\Response;
 

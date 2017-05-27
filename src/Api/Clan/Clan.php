@@ -30,12 +30,12 @@ class Clan extends AbstractResource
 
     protected $casts = [
         'location' => Location::class,
-        'badgeUrls' => Badge::class,
+        'badgeUrls' => URLContainer::class,
         'memberList' => MemberList::class
     ];
 
     /**
-     * @return Badge|null
+     * @return URLContainer|null
      */
     public function badge()
     {

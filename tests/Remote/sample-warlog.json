@@ -1,0 +1,1557 @@
+{
+  "items": [
+    {
+      "result": "win",
+      "endTime": "20170521T004817.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 17,
+        "stars": 26,
+        "destructionPercentage": 94.3,
+        "expEarned": 134
+      },
+      "opponent": {
+        "tag": "#PJ8VVGJJ",
+        "name": "Mississippi",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/qu22_3Aj5UTCa0Cmnw0Voh_pCIDyzodG1H_iurBDF2M.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/qu22_3Aj5UTCa0Cmnw0Voh_pCIDyzodG1H_iurBDF2M.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/qu22_3Aj5UTCa0Cmnw0Voh_pCIDyzodG1H_iurBDF2M.png"
+        },
+        "clanLevel": 10,
+        "stars": 24,
+        "destructionPercentage": 79.4
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170519T004155.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 25,
+        "destructionPercentage": 85.7,
+        "expEarned": 85
+      },
+      "opponent": {
+        "tag": "#8RPY9LYP",
+        "name": "LA Burger",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/xIvZLdno_oNnoLRJL2fsmwbJX1GsSApKLoMuPUuwb_k.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/xIvZLdno_oNnoLRJL2fsmwbJX1GsSApKLoMuPUuwb_k.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/xIvZLdno_oNnoLRJL2fsmwbJX1GsSApKLoMuPUuwb_k.png"
+        },
+        "clanLevel": 11,
+        "stars": 26,
+        "destructionPercentage": 90.7
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170504T020514.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 21,
+        "destructionPercentage": 78.5,
+        "expEarned": 66
+      },
+      "opponent": {
+        "tag": "#RVYJJ02G",
+        "name": "the new Era",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+        },
+        "clanLevel": 2,
+        "stars": 26,
+        "destructionPercentage": 87.3
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170502T010554.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 14,
+        "stars": 23,
+        "destructionPercentage": 79,
+        "expEarned": 139
+      },
+      "opponent": {
+        "tag": "#P9L20P0U",
+        "name": "SPARTACUS PH",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/8Ab9AdGj2FgPBEq2BBcSZsgl0bb8VJ6UDIlWkXllsc0.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/8Ab9AdGj2FgPBEq2BBcSZsgl0bb8VJ6UDIlWkXllsc0.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/8Ab9AdGj2FgPBEq2BBcSZsgl0bb8VJ6UDIlWkXllsc0.png"
+        },
+        "clanLevel": 11,
+        "stars": 16,
+        "destructionPercentage": 72.7
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170428T011022.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 24,
+        "destructionPercentage": 79.3,
+        "expEarned": 138
+      },
+      "opponent": {
+        "tag": "#8UGJQQ8L",
+        "name": "Exodus Elite",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/-fg0VY43vLnqC-I3xR3tGeND4OHlp99ueDHmxPkFkCA.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/-fg0VY43vLnqC-I3xR3tGeND4OHlp99ueDHmxPkFkCA.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/-fg0VY43vLnqC-I3xR3tGeND4OHlp99ueDHmxPkFkCA.png"
+        },
+        "clanLevel": 10,
+        "stars": 22,
+        "destructionPercentage": 78.1
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170426T014619.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 25,
+        "stars": 34,
+        "destructionPercentage": 84.46667,
+        "expEarned": 109
+      },
+      "opponent": {
+        "tag": "#YU9Q9RJJ",
+        "name": "TGA Attacker",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/CQVo1FwtNXrevtxNI6uhOGIvr0ehZrUEPhsCLSpSuhg.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/CQVo1FwtNXrevtxNI6uhOGIvr0ehZrUEPhsCLSpSuhg.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/CQVo1FwtNXrevtxNI6uhOGIvr0ehZrUEPhsCLSpSuhg.png"
+        },
+        "clanLevel": 11,
+        "stars": 39,
+        "destructionPercentage": 88
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170424T010544.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 24,
+        "destructionPercentage": 81.7,
+        "expEarned": 141
+      },
+      "opponent": {
+        "tag": "#PGJUYJJ8",
+        "name": "Enforcers",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/hKKdulvBTyarNB_uXMqp1CXS5L7XlE_onlJQSLPNFqA.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/hKKdulvBTyarNB_uXMqp1CXS5L7XlE_onlJQSLPNFqA.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/hKKdulvBTyarNB_uXMqp1CXS5L7XlE_onlJQSLPNFqA.png"
+        },
+        "clanLevel": 7,
+        "stars": 14,
+        "destructionPercentage": 57.5
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170422T011157.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 25,
+        "destructionPercentage": 85,
+        "expEarned": 140
+      },
+      "opponent": {
+        "tag": "#2P0C9208",
+        "name": "Hawk Blocked",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Vh1UUPJWQU_tZV_nukwlnD8pKpo0N8FbdLfCgvn3zNI.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Vh1UUPJWQU_tZV_nukwlnD8pKpo0N8FbdLfCgvn3zNI.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Vh1UUPJWQU_tZV_nukwlnD8pKpo0N8FbdLfCgvn3zNI.png"
+        },
+        "clanLevel": 10,
+        "stars": 17,
+        "destructionPercentage": 73.7
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170420T010908.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 23,
+        "destructionPercentage": 81.8,
+        "expEarned": 429
+      },
+      "opponent": {
+        "tag": "#80VVU0YL",
+        "name": "ClanDestinoPERU",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/it1XfTJWRTKsQ5Y2GLZvTCCiVQ_4NXFQNE-DFfEzSwo.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/it1XfTJWRTKsQ5Y2GLZvTCCiVQ_4NXFQNE-DFfEzSwo.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/it1XfTJWRTKsQ5Y2GLZvTCCiVQ_4NXFQNE-DFfEzSwo.png"
+        },
+        "clanLevel": 10,
+        "stars": 22,
+        "destructionPercentage": 71.9
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170418T011711.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 16,
+        "stars": 20,
+        "destructionPercentage": 70.2,
+        "expEarned": 252
+      },
+      "opponent": {
+        "tag": "#8CU8Y2YQ",
+        "name": "歡樂兄貴島W",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/cifCBhozHVzmlEC3Ki5SbDuUqhXBfa3HJRwLCGf3-jY.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/cifCBhozHVzmlEC3Ki5SbDuUqhXBfa3HJRwLCGf3-jY.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/cifCBhozHVzmlEC3Ki5SbDuUqhXBfa3HJRwLCGf3-jY.png"
+        },
+        "clanLevel": 5,
+        "stars": 21,
+        "destructionPercentage": 71.2
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170416T005156.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 17,
+        "stars": 21,
+        "destructionPercentage": 79,
+        "expEarned": 390
+      },
+      "opponent": {
+        "tag": "#2GG9J8UY",
+        "name": "God Saint",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/bwtk_Nx3wJVyWgDSfrkZHz3aJz7ryqoln33woEbdt8M.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/bwtk_Nx3wJVyWgDSfrkZHz3aJz7ryqoln33woEbdt8M.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/bwtk_Nx3wJVyWgDSfrkZHz3aJz7ryqoln33woEbdt8M.png"
+        },
+        "clanLevel": 10,
+        "stars": 20,
+        "destructionPercentage": 72.2
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170414T011412.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 16,
+        "stars": 25,
+        "destructionPercentage": 82.7,
+        "expEarned": 408
+      },
+      "opponent": {
+        "tag": "#22CRLCQ8",
+        "name": "Pleasure Town",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/0c9x2DqBcVFxAP-7fDuhNSdnvXqgxoQENb8f8zXPU_g.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/0c9x2DqBcVFxAP-7fDuhNSdnvXqgxoQENb8f8zXPU_g.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/0c9x2DqBcVFxAP-7fDuhNSdnvXqgxoQENb8f8zXPU_g.png"
+        },
+        "clanLevel": 4,
+        "stars": 13,
+        "destructionPercentage": 53.1
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170411T005706.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 17,
+        "stars": 22,
+        "destructionPercentage": 81.6,
+        "expEarned": 225
+      },
+      "opponent": {
+        "tag": "#9LJLJY92",
+        "name": "Notorious.ONe",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/oizXwiIZvoxWuRU3T6EvT5NP-ryXfsr8SMZFxfmRsho.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/oizXwiIZvoxWuRU3T6EvT5NP-ryXfsr8SMZFxfmRsho.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/oizXwiIZvoxWuRU3T6EvT5NP-ryXfsr8SMZFxfmRsho.png"
+        },
+        "clanLevel": 5,
+        "stars": 26,
+        "destructionPercentage": 88.5
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170403T022338.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 23,
+        "destructionPercentage": 85,
+        "expEarned": 144
+      },
+      "opponent": {
+        "tag": "#20Q8Q2JL",
+        "name": "Zealots",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/1eJdAw3lEyfCj-ZgtJlC-VxqAnLFNyd2tyTDHA5lbE0.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/1eJdAw3lEyfCj-ZgtJlC-VxqAnLFNyd2tyTDHA5lbE0.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/1eJdAw3lEyfCj-ZgtJlC-VxqAnLFNyd2tyTDHA5lbE0.png"
+        },
+        "clanLevel": 7,
+        "stars": 9,
+        "destructionPercentage": 34.4
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170401T010432.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 17,
+        "stars": 21,
+        "destructionPercentage": 81.3,
+        "expEarned": 91
+      },
+      "opponent": {
+        "tag": "#8C8URPG2",
+        "name": "PandaMonium",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/TWmz0RyDGRIaJopIR05kOC6m4F8PNIh5hOuaHc-k5Vw.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/TWmz0RyDGRIaJopIR05kOC6m4F8PNIh5hOuaHc-k5Vw.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/TWmz0RyDGRIaJopIR05kOC6m4F8PNIh5hOuaHc-k5Vw.png"
+        },
+        "clanLevel": 6,
+        "stars": 22,
+        "destructionPercentage": 78.4
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170330T013430.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 23,
+        "destructionPercentage": 82.1,
+        "expEarned": 89
+      },
+      "opponent": {
+        "tag": "#8GUC0P2Y",
+        "name": "WeAreLegends",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/GGMflFAdV8Z30fWdZ2AaQTfSQZr6KTe8wP04cdUik_U.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/GGMflFAdV8Z30fWdZ2AaQTfSQZr6KTe8wP04cdUik_U.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/GGMflFAdV8Z30fWdZ2AaQTfSQZr6KTe8wP04cdUik_U.png"
+        },
+        "clanLevel": 6,
+        "stars": 25,
+        "destructionPercentage": 84.5
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170328T013030.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 24,
+        "destructionPercentage": 83.7,
+        "expEarned": 142
+      },
+      "opponent": {
+        "tag": "#8Q8900GG",
+        "name": "Redskins",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/nrVumveLs-SAZqXsz66P4UTigUUJehCv4xtX3gBbkOU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/nrVumveLs-SAZqXsz66P4UTigUUJehCv4xtX3gBbkOU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/nrVumveLs-SAZqXsz66P4UTigUUJehCv4xtX3gBbkOU.png"
+        },
+        "clanLevel": 10,
+        "stars": 19,
+        "destructionPercentage": 71.2
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170326T011731.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 21,
+        "destructionPercentage": 77.6,
+        "expEarned": 89
+      },
+      "opponent": {
+        "tag": "#YUVJJVGJ",
+        "name": "HOÀNG NĂM",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/36yrl2eaW_XnHRXqcYfmACfZOXWcTJu-L62dOn4BsWU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/36yrl2eaW_XnHRXqcYfmACfZOXWcTJu-L62dOn4BsWU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/36yrl2eaW_XnHRXqcYfmACfZOXWcTJu-L62dOn4BsWU.png"
+        },
+        "clanLevel": 9,
+        "stars": 24,
+        "destructionPercentage": 75.4
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170324T013206.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 19,
+        "stars": 22,
+        "destructionPercentage": 76.9,
+        "expEarned": 143
+      },
+      "opponent": {
+        "tag": "#28LQU228",
+        "name": "Tac Ops Unit",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/LYguBwW3KAz-XV-gttxuUQiUESL4SI0_lG4mB29FqZw.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/LYguBwW3KAz-XV-gttxuUQiUESL4SI0_lG4mB29FqZw.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/LYguBwW3KAz-XV-gttxuUQiUESL4SI0_lG4mB29FqZw.png"
+        },
+        "clanLevel": 10,
+        "stars": 21,
+        "destructionPercentage": 82.7
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170322T012828.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 20,
+        "stars": 23,
+        "destructionPercentage": 82.7,
+        "expEarned": 85
+      },
+      "opponent": {
+        "tag": "#2V8Q9R2R",
+        "name": "the epic ones",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/xU7D_f58SPj0KRFFjA-vjRIIhjxl6xix94stVkoAjJg.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/xU7D_f58SPj0KRFFjA-vjRIIhjxl6xix94stVkoAjJg.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/xU7D_f58SPj0KRFFjA-vjRIIhjxl6xix94stVkoAjJg.png"
+        },
+        "clanLevel": 11,
+        "stars": 27,
+        "destructionPercentage": 91.5
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170320T012541.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 25,
+        "destructionPercentage": 86,
+        "expEarned": 141
+      },
+      "opponent": {
+        "tag": "#JGG0P0R",
+        "name": "Guardians",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/O5OrTbltMIslFToiYJEI72upu44TeWDMAUXaSg2Yc2s.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/O5OrTbltMIslFToiYJEI72upu44TeWDMAUXaSg2Yc2s.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/O5OrTbltMIslFToiYJEI72upu44TeWDMAUXaSg2Yc2s.png"
+        },
+        "clanLevel": 9,
+        "stars": 22,
+        "destructionPercentage": 77.8
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170318T010334.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 18,
+        "stars": 26,
+        "destructionPercentage": 90.7,
+        "expEarned": 130
+      },
+      "opponent": {
+        "tag": "#88922RQV",
+        "name": "sanandaj",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Z7R0CSKiez6cqfPv0Dk-_7LmxhdJdcr_z7p7kSmCE0s.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Z7R0CSKiez6cqfPv0Dk-_7LmxhdJdcr_z7p7kSmCE0s.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Z7R0CSKiez6cqfPv0Dk-_7LmxhdJdcr_z7p7kSmCE0s.png"
+        },
+        "clanLevel": 11,
+        "stars": 13,
+        "destructionPercentage": 49.8
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170316T005915.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 25,
+        "stars": 39,
+        "destructionPercentage": 92.46667,
+        "expEarned": 149
+      },
+      "opponent": {
+        "tag": "#9CR0Q8YJ",
+        "name": "A77aque",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/tuyD6vr80id9HPyBOSZfdnJZravap8d4vO9H8jQQ2pE.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/tuyD6vr80id9HPyBOSZfdnJZravap8d4vO9H8jQQ2pE.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/tuyD6vr80id9HPyBOSZfdnJZravap8d4vO9H8jQQ2pE.png"
+        },
+        "clanLevel": 11,
+        "stars": 38,
+        "destructionPercentage": 90.73333
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170313T015552.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 24,
+        "stars": 38,
+        "destructionPercentage": 86.6,
+        "expEarned": 101
+      },
+      "opponent": {
+        "tag": "#LRRVQ0YP",
+        "name": "Chung An vn",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/x_LhrIG_M9R3KOTv5mCdnmRAyF5D5UortJcws8tzCQ8.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/x_LhrIG_M9R3KOTv5mCdnmRAyF5D5UortJcws8tzCQ8.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/x_LhrIG_M9R3KOTv5mCdnmRAyF5D5UortJcws8tzCQ8.png"
+        },
+        "clanLevel": 7,
+        "stars": 42,
+        "destructionPercentage": 96.46667
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170311T021039.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 28,
+        "stars": 38,
+        "destructionPercentage": 88.2,
+        "expEarned": 149
+      },
+      "opponent": {
+        "tag": "#YVUQ2CYG",
+        "name": "傲世群雄",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/XD_APVQX1aL2Mz2_9xEL4TS5KndAjs2CjZhpWHG8Vwk.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/XD_APVQX1aL2Mz2_9xEL4TS5KndAjs2CjZhpWHG8Vwk.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/XD_APVQX1aL2Mz2_9xEL4TS5KndAjs2CjZhpWHG8Vwk.png"
+        },
+        "clanLevel": 10,
+        "stars": 37,
+        "destructionPercentage": 89.53333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170309T024604.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 26,
+        "stars": 40,
+        "destructionPercentage": 88.8,
+        "expEarned": 151
+      },
+      "opponent": {
+        "tag": "#LC2282PQ",
+        "name": "OLD SCHOOL",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/FWl5WXpaOLaxd_dopG6-0kL5T0T2SKBNBLLq9-ULiKc.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/FWl5WXpaOLaxd_dopG6-0kL5T0T2SKBNBLLq9-ULiKc.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/FWl5WXpaOLaxd_dopG6-0kL5T0T2SKBNBLLq9-ULiKc.png"
+        },
+        "clanLevel": 8,
+        "stars": 35,
+        "destructionPercentage": 81.53333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170307T030222.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 28,
+        "stars": 41,
+        "destructionPercentage": 93.13333,
+        "expEarned": 153
+      },
+      "opponent": {
+        "tag": "#P8CVJ02P",
+        "name": "Hpaan Focus",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/UXNvhKQXlqcw-WCHfjwCTZTzuHvaO66a5s11qet3Nwk.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/UXNvhKQXlqcw-WCHfjwCTZTzuHvaO66a5s11qet3Nwk.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/UXNvhKQXlqcw-WCHfjwCTZTzuHvaO66a5s11qet3Nwk.png"
+        },
+        "clanLevel": 11,
+        "stars": 17,
+        "destructionPercentage": 45.133335
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170305T034106.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 20,
+        "stars": 26,
+        "destructionPercentage": 85.9,
+        "expEarned": 134
+      },
+      "opponent": {
+        "tag": "#89UUUGQR",
+        "name": "merika united",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Zhf48pcLdJzOKTwd_s8pOc5iTLfsK5_LEoP1maSn85k.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Zhf48pcLdJzOKTwd_s8pOc5iTLfsK5_LEoP1maSn85k.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Zhf48pcLdJzOKTwd_s8pOc5iTLfsK5_LEoP1maSn85k.png"
+        },
+        "clanLevel": 11,
+        "stars": 19,
+        "destructionPercentage": 68.9
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170303T042110.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 27,
+        "stars": 38,
+        "destructionPercentage": 87.333336,
+        "expEarned": 157
+      },
+      "opponent": {
+        "tag": "#82QJQRL8",
+        "name": "TH of Fame",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/wGO5DW1Za80Xh7Etz4wpugM9hGQQ0zcJpQhjRMLcPeM.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/wGO5DW1Za80Xh7Etz4wpugM9hGQQ0zcJpQhjRMLcPeM.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/wGO5DW1Za80Xh7Etz4wpugM9hGQQ0zcJpQhjRMLcPeM.png"
+        },
+        "clanLevel": 10,
+        "stars": 36,
+        "destructionPercentage": 87.066666
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170301T013043.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 25,
+        "stars": 35,
+        "destructionPercentage": 81.2,
+        "expEarned": 155
+      },
+      "opponent": {
+        "tag": "#J90JUC0",
+        "name": "DABSLAYERS710",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png"
+        },
+        "clanLevel": 11,
+        "stars": 33,
+        "destructionPercentage": 77.73333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170227T015626.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 23,
+        "stars": 39,
+        "destructionPercentage": 87.666664,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#22QJQ0R2",
+        "name": "Knights of N.S",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/hP9wPktTbhYz3YAbZmrjFQspD9eqcb_KWBTHMtdkiYg.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/hP9wPktTbhYz3YAbZmrjFQspD9eqcb_KWBTHMtdkiYg.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/hP9wPktTbhYz3YAbZmrjFQspD9eqcb_KWBTHMtdkiYg.png"
+        },
+        "clanLevel": 10,
+        "stars": 37,
+        "destructionPercentage": 85.2
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170225T020451.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 24,
+        "stars": 40,
+        "destructionPercentage": 90.2,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#82CJCGUL",
+        "name": "BigBuckDown2 KC",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/DUUbdQBIeLq-4yelN_bjhICjmJGKNfEgHAEPTzrWR2k.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/DUUbdQBIeLq-4yelN_bjhICjmJGKNfEgHAEPTzrWR2k.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/DUUbdQBIeLq-4yelN_bjhICjmJGKNfEgHAEPTzrWR2k.png"
+        },
+        "clanLevel": 11,
+        "stars": 37,
+        "destructionPercentage": 84.2
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170223T013601.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 11,
+        "attacks": 25,
+        "stars": 38,
+        "destructionPercentage": 87.666664,
+        "expEarned": 153
+      },
+      "opponent": {
+        "tag": "#2RP29PGC",
+        "name": "Mentos",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/8lanSk225M1ugodwmMsWRQEdA0x8M84SbMlwODhCd9k.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/8lanSk225M1ugodwmMsWRQEdA0x8M84SbMlwODhCd9k.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/8lanSk225M1ugodwmMsWRQEdA0x8M84SbMlwODhCd9k.png"
+        },
+        "clanLevel": 10,
+        "stars": 35,
+        "destructionPercentage": 81
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170220T040853.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 28,
+        "stars": 38,
+        "destructionPercentage": 87.13333,
+        "expEarned": 158
+      },
+      "opponent": {
+        "tag": "#9UPVC2UY",
+        "name": "2nd amendment",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/wauiNT1_okE5nqNnw6a07X8ALaUo4euO18dlpZaG6BM.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/wauiNT1_okE5nqNnw6a07X8ALaUo4euO18dlpZaG6BM.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/wauiNT1_okE5nqNnw6a07X8ALaUo4euO18dlpZaG6BM.png"
+        },
+        "clanLevel": 13,
+        "stars": 36,
+        "destructionPercentage": 86.26667
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170218T044350.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 25,
+        "stars": 39,
+        "destructionPercentage": 87.26667,
+        "expEarned": 154
+      },
+      "opponent": {
+        "tag": "#9UPLQVU0",
+        "name": "DAN CHOI NHAQUE",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/bLIifsJSe1vzoZIgEK5OZXRcxgveNpV2p0SM-m8ypOM.png"
+        },
+        "clanLevel": 10,
+        "stars": 32,
+        "destructionPercentage": 85
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170216T035932.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 27,
+        "stars": 36,
+        "destructionPercentage": 84.73333,
+        "expEarned": 107
+      },
+      "opponent": {
+        "tag": "#88CLR8UU",
+        "name": "希望的桃园",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Fdd39V7NKYwQPM59UayAo5G00A5x4GYTimmgVjPxB3o.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Fdd39V7NKYwQPM59UayAo5G00A5x4GYTimmgVjPxB3o.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Fdd39V7NKYwQPM59UayAo5G00A5x4GYTimmgVjPxB3o.png"
+        },
+        "clanLevel": 12,
+        "stars": 39,
+        "destructionPercentage": 88.53333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170214T040823.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 25,
+        "stars": 39,
+        "destructionPercentage": 87.73333,
+        "expEarned": 157
+      },
+      "opponent": {
+        "tag": "#YGY2PLUY",
+        "name": "Diamond Ace's",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/oBjEliu6tgelSkRDfEabhNlL63L5IvpxwNTb6Ua-oWc.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/oBjEliu6tgelSkRDfEabhNlL63L5IvpxwNTb6Ua-oWc.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/oBjEliu6tgelSkRDfEabhNlL63L5IvpxwNTb6Ua-oWc.png"
+        },
+        "clanLevel": 10,
+        "stars": 33,
+        "destructionPercentage": 76.066666
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170212T030905.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 26,
+        "stars": 39,
+        "destructionPercentage": 86.933334,
+        "expEarned": 148
+      },
+      "opponent": {
+        "tag": "#P098QU98",
+        "name": "12L",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/3HVKJ0IxwiYKhesKE1YlTevpKEg0nyrV9WBUB1_-uTc.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/3HVKJ0IxwiYKhesKE1YlTevpKEg0nyrV9WBUB1_-uTc.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/3HVKJ0IxwiYKhesKE1YlTevpKEg0nyrV9WBUB1_-uTc.png"
+        },
+        "clanLevel": 11,
+        "stars": 31,
+        "destructionPercentage": 78.53333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170210T021243.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 26,
+        "stars": 36,
+        "destructionPercentage": 86.4,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#8Y0GV8J2",
+        "name": "Last One Picked",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/jLOLE8GEnrFSysit0qJflSW_sfIqL88HfdMFNS2dvVQ.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/jLOLE8GEnrFSysit0qJflSW_sfIqL88HfdMFNS2dvVQ.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/jLOLE8GEnrFSysit0qJflSW_sfIqL88HfdMFNS2dvVQ.png"
+        },
+        "clanLevel": 8,
+        "stars": 35,
+        "destructionPercentage": 82.8
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170208T023450.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 27,
+        "stars": 37,
+        "destructionPercentage": 85.333336,
+        "expEarned": 90
+      },
+      "opponent": {
+        "tag": "#P822LU8P",
+        "name": "Kizzles-n-Bits",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/zH0QN3kwn6Hohu-KeeZz7FoyWnuyl5d1htHOAx75osY.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/zH0QN3kwn6Hohu-KeeZz7FoyWnuyl5d1htHOAx75osY.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/zH0QN3kwn6Hohu-KeeZz7FoyWnuyl5d1htHOAx75osY.png"
+        },
+        "clanLevel": 11,
+        "stars": 38,
+        "destructionPercentage": 85.666664
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170205T021735.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 20,
+        "stars": 23,
+        "destructionPercentage": 79.1,
+        "expEarned": 137
+      },
+      "opponent": {
+        "tag": "#VUGPV22",
+        "name": "Beer Wars",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/l5mucRb2H0nTKX9WZDS2LqPoqjCN7bW71pZpZg7nl0s.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/l5mucRb2H0nTKX9WZDS2LqPoqjCN7bW71pZpZg7nl0s.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/l5mucRb2H0nTKX9WZDS2LqPoqjCN7bW71pZpZg7nl0s.png"
+        },
+        "clanLevel": 11,
+        "stars": 23,
+        "destructionPercentage": 77.5
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170203T023239.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 28,
+        "stars": 36,
+        "destructionPercentage": 83.8,
+        "expEarned": 160
+      },
+      "opponent": {
+        "tag": "#8V08UR8Q",
+        "name": "MINNESOTA",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/775X_JBnvv3nOQjvbGtkVCfRWtEVnKPb4GY4AONyJK0.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/775X_JBnvv3nOQjvbGtkVCfRWtEVnKPb4GY4AONyJK0.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/775X_JBnvv3nOQjvbGtkVCfRWtEVnKPb4GY4AONyJK0.png"
+        },
+        "clanLevel": 10,
+        "stars": 33,
+        "destructionPercentage": 80.46667
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170201T031009.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 26,
+        "stars": 40,
+        "destructionPercentage": 89.26667,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#8PLC9LRL",
+        "name": "AP Tier2",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Jl8-5S17dIUQONx_6GsFVLizZdWV-0Gw67aOPIAue4M.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Jl8-5S17dIUQONx_6GsFVLizZdWV-0Gw67aOPIAue4M.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Jl8-5S17dIUQONx_6GsFVLizZdWV-0Gw67aOPIAue4M.png"
+        },
+        "clanLevel": 7,
+        "stars": 37,
+        "destructionPercentage": 87.6
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170130T014518.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 27,
+        "stars": 33,
+        "destructionPercentage": 77.8,
+        "expEarned": 102
+      },
+      "opponent": {
+        "tag": "#P2Q02RPQ",
+        "name": "BrokenHoofRanch",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/Dk7O6xrFiDcurvC_1jkOnVfVuNCY8B-cFX2G4axXsb4.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/Dk7O6xrFiDcurvC_1jkOnVfVuNCY8B-cFX2G4axXsb4.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/Dk7O6xrFiDcurvC_1jkOnVfVuNCY8B-cFX2G4axXsb4.png"
+        },
+        "clanLevel": 10,
+        "stars": 35,
+        "destructionPercentage": 84.2
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170128T020250.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 24,
+        "stars": 40,
+        "destructionPercentage": 87.53333,
+        "expEarned": 145
+      },
+      "opponent": {
+        "tag": "#2V2UGLLV",
+        "name": "CoC-Slapped",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/dmYeEpwqbhA2u9t4Wq-COTSMN-qM5D-zWc6RAJCiKyE.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/dmYeEpwqbhA2u9t4Wq-COTSMN-qM5D-zWc6RAJCiKyE.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/dmYeEpwqbhA2u9t4Wq-COTSMN-qM5D-zWc6RAJCiKyE.png"
+        },
+        "clanLevel": 7,
+        "stars": 29,
+        "destructionPercentage": 77.53333
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170126T022939.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 26,
+        "stars": 40,
+        "destructionPercentage": 88.86667,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#2UCC2GGU",
+        "name": "Trini Vampires",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/S1oUB0_u88s-WBWsWGT7mC4WDNY71JD5QrEnwmwPJx0.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/S1oUB0_u88s-WBWsWGT7mC4WDNY71JD5QrEnwmwPJx0.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/S1oUB0_u88s-WBWsWGT7mC4WDNY71JD5QrEnwmwPJx0.png"
+        },
+        "clanLevel": 10,
+        "stars": 34,
+        "destructionPercentage": 79.333336
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170124T025633.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 19,
+        "stars": 23,
+        "destructionPercentage": 82.6,
+        "expEarned": 134
+      },
+      "opponent": {
+        "tag": "#R2VV89Q8",
+        "name": "TOM CAT",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/H39b_-WLZGtZVWQ0hqTkE-Tn2AaQnQWy_Iz4yBlvL0M.png"
+        },
+        "clanLevel": 4,
+        "stars": 19,
+        "destructionPercentage": 73.9
+      }
+    },
+    {
+      "result": "lose",
+      "endTime": "20170122T030558.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 19,
+        "stars": 23,
+        "destructionPercentage": 82.5,
+        "expEarned": 82
+      },
+      "opponent": {
+        "tag": "#PJG98QU8",
+        "name": "HalfNasty",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/aDoe2Ay1EedfFMaF0Xp3PfuGEqTE__PMenlt9KuCA4E.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/aDoe2Ay1EedfFMaF0Xp3PfuGEqTE__PMenlt9KuCA4E.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/aDoe2Ay1EedfFMaF0Xp3PfuGEqTE__PMenlt9KuCA4E.png"
+        },
+        "clanLevel": 7,
+        "stars": 25,
+        "destructionPercentage": 92.3
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170120T031311.000Z",
+      "teamSize": 10,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 20,
+        "stars": 25,
+        "destructionPercentage": 89.5,
+        "expEarned": 135
+      },
+      "opponent": {
+        "tag": "#YVGUY02R",
+        "name": "arwind slasher",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/rCPqm_unDjHfnxBG4JcGOJcojzz32qbdWaXVBW_KbOI.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/rCPqm_unDjHfnxBG4JcGOJcojzz32qbdWaXVBW_KbOI.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/rCPqm_unDjHfnxBG4JcGOJcojzz32qbdWaXVBW_KbOI.png"
+        },
+        "clanLevel": 8,
+        "stars": 15,
+        "destructionPercentage": 64.9
+      }
+    },
+    {
+      "result": "win",
+      "endTime": "20170118T035956.000Z",
+      "teamSize": 15,
+      "clan": {
+        "tag": "#2VLU9P88",
+        "name": "ScissorsOfHonor",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+        },
+        "clanLevel": 10,
+        "attacks": 24,
+        "stars": 39,
+        "destructionPercentage": 89.333336,
+        "expEarned": 150
+      },
+      "opponent": {
+        "tag": "#VVY0CVL",
+        "name": "Fenix_BR",
+        "badgeUrls": {
+          "small": "https://api-assets.clashofclans.com/badges/70/wefGzhxe4se3gUKTa2DFm3mquJn1h7Xtf_FpSbc9AzA.png",
+          "large": "https://api-assets.clashofclans.com/badges/512/wefGzhxe4se3gUKTa2DFm3mquJn1h7Xtf_FpSbc9AzA.png",
+          "medium": "https://api-assets.clashofclans.com/badges/200/wefGzhxe4se3gUKTa2DFm3mquJn1h7Xtf_FpSbc9AzA.png"
+        },
+        "clanLevel": 10,
+        "stars": 31,
+        "destructionPercentage": 76.86667
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {}
+  }
+}

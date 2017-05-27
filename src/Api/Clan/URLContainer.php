@@ -9,9 +9,9 @@ use ClashOfClans\Api\AbstractResource;
 /**
  * @method string small()
  * @method string medium()
- *@method string large()
+ * @method string large()
  */
-class Badge extends AbstractResource
+class URLContainer extends AbstractResource
 {
 
 }

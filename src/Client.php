@@ -4,6 +4,7 @@
 namespace ClashOfClans;
 
 use ClashOfClans\Api\Clan\Clan;
+use ClashOfClans\Api\Clan\War\Current\CurrentWar;
 use ClashOfClans\Api\Player\Player;
 use ClashOfClans\Api\League\League;
 use ClashOfClans\Api\Location\Location;
@@ -89,6 +90,29 @@ class Client
         return array_map(function($item){
             return Clan::makeFromArray($item);
         }, $response['items']);
+    }
+
+    /**
+     * Get current war
+     * @see Documentation at https://developer.clashofclans.com/
+     *
+     * @param string $tag
+     * @param mixed $params
+     * @return CurrentWar
+     */
+    public function getCurrentWar($tag, $params = null) {
+
+        $url = 'clans/' . urlencode($tag) . '/currentwar?';
+
+        if(!is_null($params)) {
+            if(is_array($params)) {
+                $url .= http_build_query($params);
+            }
+        }
+
+        $response = $this->request($url);
+
+        return CurrentWar::makeFromArray($response);
     }
 
     /**

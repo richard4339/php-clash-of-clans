@@ -1,0 +1,177 @@
+{
+  "state": "preparation",
+  "teamSize": 10,
+  "preparationStartTime": "20170523T043336.000Z",
+  "startTime": "20170524T033336.000Z",
+  "endTime": "20170525T033336.000Z",
+  "clan": {
+    "tag": "#2VLU9P88",
+    "name": "ScissorsOfHonor",
+    "badgeUrls": {
+      "small": "https://api-assets.clashofclans.com/badges/70/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+      "large": "https://api-assets.clashofclans.com/badges/512/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png",
+      "medium": "https://api-assets.clashofclans.com/badges/200/K7A9Agw98OYPt5OO_jl7_WUblpkkcZKrk31pU71VbjU.png"
+    },
+    "clanLevel": 11,
+    "attacks": 0,
+    "stars": 0,
+    "destructionPercentage": 0.0,
+    "members": [
+      {
+        "tag": "#28P8QV2UU",
+        "name": "MacDaddy",
+        "townhallLevel": 9,
+        "mapPosition": 7,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#P2G9UR0V",
+        "name": "straightlamping",
+        "townhallLevel": 9,
+        "mapPosition": 6,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#JYLCGRP9",
+        "name": "jeveland",
+        "townhallLevel": 10,
+        "mapPosition": 2,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#R9UU8RPJ",
+        "name": "EvilScissors",
+        "townhallLevel": 10,
+        "mapPosition": 3,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#9PQV8G2C",
+        "name": "lockelamora",
+        "townhallLevel": 10,
+        "mapPosition": 5,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#9JL9CVV0Y",
+        "name": "SafetyScissors",
+        "townhallLevel": 7,
+        "mapPosition": 10,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#GLQ28JLR",
+        "name": "chris",
+        "townhallLevel": 10,
+        "mapPosition": 1,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#CCJULV8Q",
+        "name": "nick",
+        "townhallLevel": 10,
+        "mapPosition": 8,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#20GVVU92P",
+        "name": "Enforcer",
+        "townhallLevel": 10,
+        "mapPosition": 4,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#8G8Y02UGV",
+        "name": "Fort Schmidt",
+        "townhallLevel": 8,
+        "mapPosition": 9,
+        "opponentAttacks": 0
+      }
+    ]
+  },
+  "opponent": {
+    "tag": "#20UJGLPJ",
+    "name": "kixki",
+    "badgeUrls": {
+      "small": "https://api-assets.clashofclans.com/badges/70/OQH_3xtZt_HrXMAh-uUWzNa6T5jPbKMHfPlfEyHzFgY.png",
+      "large": "https://api-assets.clashofclans.com/badges/512/OQH_3xtZt_HrXMAh-uUWzNa6T5jPbKMHfPlfEyHzFgY.png",
+      "medium": "https://api-assets.clashofclans.com/badges/200/OQH_3xtZt_HrXMAh-uUWzNa6T5jPbKMHfPlfEyHzFgY.png"
+    },
+    "clanLevel": 11,
+    "attacks": 0,
+    "stars": 0,
+    "destructionPercentage": 0.0,
+    "members": [
+      {
+        "tag": "#22CGJQJU",
+        "name": "grandos",
+        "townhallLevel": 11,
+        "mapPosition": 1,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#29RGU09P0",
+        "name": "cikatriz",
+        "townhallLevel": 10,
+        "mapPosition": 3,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#9LLLVVLRQ",
+        "name": "Izzvick",
+        "townhallLevel": 9,
+        "mapPosition": 9,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#UQ8Y2QR",
+        "name": "Deivit",
+        "townhallLevel": 11,
+        "mapPosition": 4,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2R90PQ0RP",
+        "name": "Garrote bill",
+        "townhallLevel": 8,
+        "mapPosition": 8,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#RCQCVQYU",
+        "name": "martillo pilonn",
+        "townhallLevel": 10,
+        "mapPosition": 2,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#Q2L8UJV8",
+        "name": "perkutorr",
+        "townhallLevel": 9,
+        "mapPosition": 6,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2GGURQQUV",
+        "name": "Enaris",
+        "townhallLevel": 10,
+        "mapPosition": 5,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#2Y8UPYLP8",
+        "name": "aludes",
+        "townhallLevel": 9,
+        "mapPosition": 7,
+        "opponentAttacks": 0
+      },
+      {
+        "tag": "#8JC9JCYGJ",
+        "name": "TRUÑOS",
+        "townhallLevel": 7,
+        "mapPosition": 10,
+        "opponentAttacks": 0
+      }
+    ]
+  }
+}

@@ -1,18 +1,19 @@
 <?php
 
-
 namespace ClashOfClans\Api;
-
-
-use ClashOfClans\Api\Clan\Clan;
-use ClashOfClans\Api\Location\Location;
 
 abstract class AbstractResource
 {
+
+    /**
+     * @var array
+     */
     protected $data = [];
-    protected $casts = [
-        'location' => Location::class
-    ];
+
+    /**
+     * @var AbstractResource[]
+     */
+    protected $casts = [];
 
     protected function __construct()
     {
@@ -60,7 +61,7 @@ abstract class AbstractResource
     /**
      * @param $key
      * @param $value
-     * @return Clan
+     * @return AbstractResource
      */
     protected function cast($key, $value)
     {
@@ -72,7 +73,7 @@ abstract class AbstractResource
     /**
      * @param $key
      * @param $value
-     * @return Clan
+     * @return AbstractResource
      */
     protected function setRawProperty($key, $value)
     {
@@ -81,10 +82,13 @@ abstract class AbstractResource
         return $this;
     }
 
+    /**
+     * @param mixed $key
+     * @return array|mixed|null
+     */
     protected function get($key = null)
     {
-        if($key === null)
-        {
+        if ($key === null) {
             return $this->data;
         }
 
@@ -93,9 +97,43 @@ abstract class AbstractResource
 
     public function __call($name, $arguments)
     {
-        if($data = $this->get($name))
-        {
+        if ($data = $this->get($name)) {
             return $data;
         }
+    }
+
+    public function __get($name)
+    {
+        if ($data = $this->get($name)) {
+            return $data;
+        }
+    }
+
+    /**
+     * Formats the specified time using the supplied format
+     *
+     * @internal The Clash of Clans API returns their date in a format not directly parseable by PHP. This function makes the date parseable by PHP
+     *
+     * @param string $time
+     * @param string $format Defaults to DATE_ATOM
+     * @return false|string
+     *
+     * @link https://secure.php.net/manual/en/function.date.php
+     * @link https://secure.php.net/manual/en/class.datetime.php#datetime.constants.types
+     */
+    public static function formatTime($time, $format = DATE_ATOM)
+    {
+        if(empty($time)) {
+            return false;
+        }
+
+        $a = str_split($time);
+
+        array_splice($a, 4, 0, '-');
+        array_splice($a, 7, 0, '-');
+        array_splice($a, 13, 0, ':');
+        array_splice($a, 16, 0, ':');
+
+        return date($format, strtotime(implode("", $a)));
     }
 }

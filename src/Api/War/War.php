@@ -8,6 +8,7 @@ use ClashOfClans\Api\AbstractResource;
 
 /**
  * @method string result()
+ * @method string endTime()
  * @method int teamSize()
  * @method Clan clan()
  * @method Clan opponent()
