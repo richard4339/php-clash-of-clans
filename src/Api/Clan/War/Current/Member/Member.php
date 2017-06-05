@@ -14,11 +14,11 @@ use ClashOfClans\Api\Clan\URLContainer;
  * @property-read int $townhallLevel
  * @property-read int $mapPosition
  * @property-read int $opponentAttacks
- * @property-read Attack[] $attacks
+ * @property-read AttackList[] $attacks
  */
 class Member extends AbstractResource
 {
     protected $casts = [
-        'attacks' => Attack::class
+        'attacks' => AttackList::class
     ];
 }
