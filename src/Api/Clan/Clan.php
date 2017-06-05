@@ -44,11 +44,17 @@ class Clan extends AbstractResource
         return $this->get('badgeUrls');
     }
 
+    /**
+     * @return int|null
+     */
     public function membersCount()
     {
         return $this->get('members');
     }
 
+    /**
+     * @return int|null
+     */
     public function warTotal()
     {
         return $this->get('warWins') + $this->get('warLosses') + $this->get('warTies');
