@@ -59,4 +59,25 @@ class CurrentWar extends AbstractResource
         return self::formatTime($this->startTime, $format);
     }
 
+    /**
+     * @return \DateTime
+     */
+    public function preparationStartDateTime() {
+        return new \DateTime($this->formattedPreparationStartTime());
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function startDateTime() {
+        return new \DateTime($this->formattedStartTime());
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function endDateTime() {
+        return new \DateTime($this->formattedEndTime());
+    }
+
 }
