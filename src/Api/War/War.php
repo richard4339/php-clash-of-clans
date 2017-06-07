@@ -68,5 +68,12 @@ class War extends AbstractResource
         return date($format, strtotime(implode("", $a)));
     }
 
+    /**
+     * @return \DateTime
+     */
+    public function endDateTime() {
+        return new \DateTime($this->formattedEndTime());
+    }
+
 
 }
