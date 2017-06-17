@@ -18,7 +18,7 @@ use ClashOfClans\Api\Clan\War\Current\Member\MemberList;
  * @property-read int $stars
  * @property-read float $destructionPercentage
  * @property-read int $expEarned
- * @property-read MemberList[] $members
+ * @property-read MemberList $members
  */
 class WarClan extends AbstractResource
 {
@@ -26,4 +26,20 @@ class WarClan extends AbstractResource
         'badgeUrls' => URLContainer::class,
         'members' => MemberList::class
     ];
+
+    /**
+     * Gets the number of members for this clan in this war
+     *
+     * @return int
+     */
+    public function memberCount()
+    {
+        $count = $this->get('members');
+
+        if(empty($count)) {
+            return 0;
+        }
+
+        return $count;
+    }
 }
