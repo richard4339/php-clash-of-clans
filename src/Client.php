@@ -8,12 +8,9 @@ use ClashOfClans\Api\Clan\War\Current\CurrentWar;
 use ClashOfClans\Api\Player\Player;
 use ClashOfClans\Api\League\League;
 use ClashOfClans\Api\Location\Location;
-use ClashOfClans\Api\Location\LocationList;
 use ClashOfClans\Api\ResponseMediator;
 use ClashOfClans\Api\War\War;
-use ClashOfClans\Api\War\WarLog;
 use GuzzleHttp\Client as GuzzleClient;
-use GuzzleHttp\ClientInterface;
 
 /**
  * Class Client
@@ -209,10 +206,10 @@ class Client
     }
 
     /**
-     * @param ClientInterface $client
-     * @return $this
+     * @param GuzzleClient $client
+     * @return Client
      */
-    public function setHttpClient(ClientInterface $client)
+    public function setHttpClient(GuzzleClient $client)
     {
         $this->httpClient = $client;
 
