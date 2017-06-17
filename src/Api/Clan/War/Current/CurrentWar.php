@@ -3,6 +3,7 @@
 namespace ClashOfClans\Api\Clan\War\Current;
 
 use ClashOfClans\Api\AbstractResource;
+use ClashOfClans\Api\Clan\War\Current\Member\Member;
 
 /**
  * Class CurrentWar
@@ -31,7 +32,8 @@ class CurrentWar extends AbstractResource
      * @param string $format
      * @return bool|string
      */
-    public function formattedEndTime($format = DATE_ATOM) {
+    public function formattedEndTime($format = DATE_ATOM)
+    {
         return self::formatTime($this->endTime, $format);
     }
 
@@ -43,7 +45,8 @@ class CurrentWar extends AbstractResource
      * @param string $format
      * @return bool|string
      */
-    public function formattedPreparationStartTime($format = DATE_ATOM) {
+    public function formattedPreparationStartTime($format = DATE_ATOM)
+    {
         return self::formatTime($this->preparationStartTime, $format);
     }
 
@@ -55,29 +58,43 @@ class CurrentWar extends AbstractResource
      * @param string $format
      * @return bool|string
      */
-    public function formattedStartTime($format = DATE_ATOM) {
+    public function formattedStartTime($format = DATE_ATOM)
+    {
         return self::formatTime($this->startTime, $format);
     }
 
     /**
      * @return \DateTime
      */
-    public function preparationStartDateTime() {
+    public function preparationStartDateTime()
+    {
         return new \DateTime($this->formattedPreparationStartTime());
     }
 
     /**
      * @return \DateTime
      */
-    public function startDateTime() {
+    public function startDateTime()
+    {
         return new \DateTime($this->formattedStartTime());
     }
 
     /**
      * @return \DateTime
      */
-    public function endDateTime() {
+    public function endDateTime()
+    {
         return new \DateTime($this->formattedEndTime());
+    }
+
+    /**
+     * Gets all clan and opponents in one array
+     *
+     * @return Member[]
+     */
+    public function getAllMembers()
+    {
+        return array_merge($this->clan->members->all(), $this->opponent->members->all());
     }
 
 }
