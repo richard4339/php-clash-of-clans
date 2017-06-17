@@ -24,17 +24,15 @@ class Member extends AbstractResource
 
     /**
      * Gets the count of attacks made by this member
-     * 
+     *
      * @return int
      */
     public function attackCount()
     {
-        $count = $this->get('attacks');
-
-        if(empty($count)) {
+        if(!isset($this->data['attacks'])) {
             return 0;
         }
 
-        return $count;
+        return count($this->get('attacks'));
     }
 }
