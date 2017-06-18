@@ -83,18 +83,24 @@ abstract class AbstractResource
     }
 
     /**
-     * @param mixed $key
+     * @param mixed|null $key
+     * @param mixed|null $default
      * @return array|mixed|null
      */
-    protected function get($key = null)
+    protected function get($key = null, $default = null)
     {
         if ($key === null) {
-            return $this->data;
+            return $this->data ?? $default;
         }
 
-        return isset($this->data[$key]) ? $this->data[$key] : null;
+        return $this->data[$key] ?? $default;
     }
 
+    /**
+     * @param $name
+     * @param $arguments
+     * @return array|mixed|null
+     */
     public function __call($name, $arguments)
     {
         if ($data = $this->get($name)) {
@@ -102,6 +108,10 @@ abstract class AbstractResource
         }
     }
 
+    /**
+     * @param string $name
+     * @return array|mixed|null
+     */
     public function __get($name)
     {
         if ($data = $this->get($name)) {
