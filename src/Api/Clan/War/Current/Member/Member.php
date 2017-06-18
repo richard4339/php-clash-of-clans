@@ -52,6 +52,6 @@ class Member extends AbstractResource
             return 0;
         }
 
-        return count($this->get('attacks'));
+        return count($this->data['attacks']->data);
     }
 }

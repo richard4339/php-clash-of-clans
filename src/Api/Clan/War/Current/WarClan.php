@@ -38,7 +38,7 @@ class WarClan extends AbstractResource
             return 0;
         }
 
-        return count($this->get('members'));
+        return count($this->data['members']->data);
     }
 
     /**
