@@ -34,10 +34,31 @@ class WarClan extends AbstractResource
      */
     public function memberCount()
     {
-        if(!isset($this->data['members'])) {
+        if (!isset($this->data['members'])) {
             return 0;
         }
 
         return count($this->get('members'));
+    }
+
+    /**
+     * Calls the overloaded get() method for numeric data types which will return 0 if null
+     *
+     * @param $name
+     * @return array|mixed|null
+     */
+    public function __get($name)
+    {
+        switch ($name) {
+            case 'clanLevel':
+            case 'attacks':
+            case 'stars':
+            case 'destructionPercentage':
+            case 'expEarned':
+                return $this->get($name, 0);
+                break;
+            default:
+                return parent::__get($name);
+        }
     }
 }

@@ -23,6 +23,25 @@ class Member extends AbstractResource
     ];
 
     /**
+     * Calls the overloaded get() method for numeric data types which will return 0 if null
+     *
+     * @param $name
+     * @return array|mixed|null
+     */
+    public function __get($name)
+    {
+        switch ($name) {
+            case 'townhallLevel':
+            case 'mapPosition':
+            case 'opponentAttacks':
+                return $this->get($name, 0);
+                break;
+            default:
+                return parent::__get($name);
+        }
+    }
+
+    /**
      * Gets the count of attacks made by this member
      *
      * @return int
