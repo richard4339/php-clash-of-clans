@@ -4,6 +4,7 @@ namespace ClashOfClans\Api\Clan\War\Current;
 
 use ClashOfClans\Api\AbstractResource;
 use ClashOfClans\Api\Clan\War\Current\Member\Member;
+use JsonSerializable;
 
 /**
  * Class CurrentWar
@@ -17,7 +18,7 @@ use ClashOfClans\Api\Clan\War\Current\Member\Member;
  * @property-read WarClan $clan
  * @property-read WarClan $opponent
  */
-class CurrentWar extends AbstractResource
+class CurrentWar extends AbstractResource implements JsonSerializable
 {
     protected $casts = [
         'clan' => WarClan::class,
@@ -112,6 +113,24 @@ class CurrentWar extends AbstractResource
             default:
                 return parent::__get($name);
         }
+    }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize()
+    {
+        $response = [
+            'state' => $this->state,
+            'teamSize' => $this->teamSize,
+            'preparationStartTime' => $this->preparationStartDateTime(),
+            'startTime' => $this->startDateTime(),
+            'endTime' => $this->endDateTime(),
+            'clan' => $this->clan->members->all(),
+            'opponent' => $this->opponent->members->all(),
+        ];
+
+        return $response;
     }
 
 }

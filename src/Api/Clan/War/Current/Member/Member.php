@@ -4,6 +4,7 @@ namespace ClashOfClans\Api\Clan\War\Current\Member;
 
 use ClashOfClans\Api\AbstractResource;
 use ClashOfClans\Api\Clan\URLContainer;
+use JsonSerializable;
 
 /**
  * Class WarClanMember
@@ -16,7 +17,7 @@ use ClashOfClans\Api\Clan\URLContainer;
  * @property-read int $opponentAttacks
  * @property-read AttackList $attacks
  */
-class Member extends AbstractResource
+class Member extends AbstractResource implements JsonSerializable
 {
     protected $casts = [
         'attacks' => AttackList::class
@@ -53,5 +54,26 @@ class Member extends AbstractResource
         }
 
         return count($this->data['attacks']->data);
+    }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize()
+    {
+        $response = [
+            'tag' => $this->tag,
+            'name' => $this->name,
+            'townhallLevel' => $this->townhallLevel,
+            'mapPosition' => $this->mapPosition,
+            'opponentAttacks' => $this->opponentAttacks,
+            'attacks' => [],
+        ];
+
+        if ($this->attackCount() > 0) {
+            $response['attacks'] = $this->attacks->all();
+        }
+
+        return $response;
     }
 }
