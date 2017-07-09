@@ -17,6 +17,8 @@ use JsonSerializable;
  * @property-read string $endTime
  * @property-read WarClan $clan
  * @property-read WarClan $opponent
+ *
+ * @see State for known state constants
  */
 class CurrentWar extends AbstractResource implements JsonSerializable
 {
