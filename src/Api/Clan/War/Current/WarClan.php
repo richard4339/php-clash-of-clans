@@ -5,6 +5,7 @@ namespace ClashOfClans\Api\Clan\War\Current;
 use ClashOfClans\Api\AbstractResource;
 use ClashOfClans\Api\Clan\URLContainer;
 use ClashOfClans\Api\Clan\War\Current\Member\MemberList;
+use JsonSerializable;
 
 /**
  * Class WarClan
@@ -20,7 +21,7 @@ use ClashOfClans\Api\Clan\War\Current\Member\MemberList;
  * @property-read int $expEarned
  * @property-read MemberList $members
  */
-class WarClan extends AbstractResource
+class WarClan extends AbstractResource implements JsonSerializable
 {
     protected $casts = [
         'badgeUrls' => URLContainer::class,
@@ -60,5 +61,25 @@ class WarClan extends AbstractResource
             default:
                 return parent::__get($name);
         }
+    }
+
+    /**
+     * @return array
+     */
+    public function jsonSerialize()
+    {
+        $response = [
+            'tag' => $this->tag,
+            'name' => $this->name,
+            'badgeUrls' => $this->badgeUrls,
+            'clanLevel' => $this->clanLevel,
+            'attacks' => $this->attacks,
+            'stars' => $this->stars,
+            'destructionPercentage' => $this->destructionPercentage,
+            'expEarned' => $this->expEarned,
+            'members' => $this->members->all(),
+        ];
+
+        return $response;
     }
 }
