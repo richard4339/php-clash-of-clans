@@ -1,6 +1,5 @@
 <?php
 
-
 namespace ClashOfClans;
 
 use ClashOfClans\Api\Clan\Clan;
@@ -19,18 +18,18 @@ use GuzzleHttp\Client as GuzzleClient;
 class Client
 {
     /**
-     * @var
+     * @var GuzzleClient
      */
     protected $httpClient;
 
     /**
-     * @var
+     * @var string
      */
     protected $token;
 
     /**
      * Client constructor.
-     * @param $token
+     * @param string $token
      */
     public function __construct($token)
     {
@@ -54,19 +53,20 @@ class Client
      * @param string $tag
      * @return War[]
      */
-    public function getWarLog($tag, $params = null) {
+    public function getWarLog($tag, $params = null)
+    {
 
         $url = 'clans/' . urlencode($tag) . '/warlog?';
 
-        if(!is_null($params)) {
-            if(is_array($params)) {
+        if (!is_null($params)) {
+            if (is_array($params)) {
                 $url .= http_build_query($params);
             }
         }
 
         $response = $this->request($url);
 
-        return array_map(function($item){
+        return array_map(function ($item) {
             return War::makeFromArray($item);
         }, $response['items']);
     }
@@ -75,7 +75,7 @@ class Client
      * Search for clans using parameters
      * @see Documentation at https://developer.clashofclans.com/
      *
-     * @param $params
+     * @param array $params
      * @return Clan[]
      */
     public function getClans($params)
@@ -84,7 +84,7 @@ class Client
 
         $response = $this->request('clans?' . http_build_query($params));
 
-        return array_map(function($item){
+        return array_map(function ($item) {
             return Clan::makeFromArray($item);
         }, $response['items']);
     }
@@ -97,12 +97,13 @@ class Client
      * @param mixed $params
      * @return CurrentWar
      */
-    public function getCurrentWar($tag, $params = null) {
+    public function getCurrentWar($tag, $params = null)
+    {
 
         $url = 'clans/' . urlencode($tag) . '/currentwar?';
 
-        if(!is_null($params)) {
-            if(is_array($params)) {
+        if (!is_null($params)) {
+            if (is_array($params)) {
                 $url .= http_build_query($params);
             }
         }
@@ -129,7 +130,7 @@ class Client
      */
     public function getLocations()
     {
-        return array_map(function($item){
+        return array_map(function ($item) {
             return Location::makeFromArray($item);
         }, $this->request('locations')['items']);
     }
@@ -144,13 +145,13 @@ class Client
     {
         $url = 'locations/' . $locationId . '/rankings/' . $rankingId;
 
-        if($rankingId == 'clans'){
-            return array_map(function($item){
+        if ($rankingId == 'clans') {
+            return array_map(function ($item) {
                 return Clan::makeFromArray($item);
             }, $this->request($url)['items']);
         }
 
-        return array_map(function($item){
+        return array_map(function ($item) {
             return Player::makeFromArray($item);
         }, $this->request($url)['items']);
     }
@@ -162,7 +163,7 @@ class Client
      */
     public function getLeagues()
     {
-        return array_map(function($item){
+        return array_map(function ($item) {
             return League::makeFromArray($item);
         }, $this->request('leagues')['items']);
     }
@@ -187,7 +188,7 @@ class Client
     protected function request($url)
     {
         $response = $this->getHttpClient()
-                         ->request('GET', $url, ['headers' => ['authorization' => 'Bearer ' . $this->getToken()]]);
+            ->request('GET', $url, ['headers' => ['authorization' => 'Bearer ' . $this->getToken()]]);
 
         return ResponseMediator::convertResponseToArray($response);
     }
@@ -197,8 +198,7 @@ class Client
      */
     public function getHttpClient()
     {
-        if($this->httpClient === null)
-        {
+        if ($this->httpClient === null) {
             $this->httpClient = new GuzzleClient(['base_uri' => 'https://api.clashofclans.com/v1/']);
         }
 
