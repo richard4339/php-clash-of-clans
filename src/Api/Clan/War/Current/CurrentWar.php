@@ -10,7 +10,7 @@ use JsonSerializable;
  * Class CurrentWar
  * @package ClashOfClans\Api\Clan\War\Current
  *
- * @property-read string $state Known values include preparation, inWar
+ * @property-read string $state Known values include preparation, inWar, warEnded, notInWar
  * @property-read int $teamSize
  * @property-read string $preparationStartTime
  * @property-read string $startTime
@@ -126,8 +126,8 @@ class CurrentWar extends AbstractResource implements JsonSerializable
             'preparationStartTime' => $this->preparationStartDateTime(),
             'startTime' => $this->startDateTime(),
             'endTime' => $this->endDateTime(),
-            'clan' => $this->clan->members->all(),
-            'opponent' => $this->opponent->members->all(),
+            'clan' => $this->clan,
+            'opponent' => $this->opponent,
         ];
 
         return $response;
