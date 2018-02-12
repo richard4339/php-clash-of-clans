@@ -4,12 +4,14 @@ namespace ClashOfClans;
 
 use ClashOfClans\Api\Clan\Clan;
 use ClashOfClans\Api\Clan\War\Current\CurrentWar;
+use ClashOfClans\Api\Exception\BadTokenException;
 use ClashOfClans\Api\Player\Player;
 use ClashOfClans\Api\League\League;
 use ClashOfClans\Api\Location\Location;
 use ClashOfClans\Api\ResponseMediator;
 use ClashOfClans\Api\War\War;
 use GuzzleHttp\Client as GuzzleClient;
+use GuzzleHttp\Exception\RequestException;
 
 /**
  * Class Client
@@ -41,6 +43,9 @@ class Client
      *
      * @param string $tag
      * @return Clan
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getClan($tag)
     {
@@ -52,6 +57,9 @@ class Client
     /**
      * @param string $tag
      * @return War[]
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getWarLog($tag, $params = null)
     {
@@ -77,6 +85,9 @@ class Client
      *
      * @param array $params
      * @return Clan[]
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getClans($params)
     {
@@ -96,6 +107,9 @@ class Client
      * @param string $tag
      * @param mixed $params
      * @return CurrentWar
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getCurrentWar($tag, $params = null)
     {
@@ -117,6 +131,9 @@ class Client
      * Get details for specific location
      * @param $id
      * @return Location
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getLocation($id)
     {
@@ -127,6 +144,9 @@ class Client
      * Get list of all locations
      *
      * @return Location[]
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getLocations()
     {
@@ -140,6 +160,9 @@ class Client
      * @param $locationId
      * @param $rankingId
      * @return array
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getRankingsForLocation($locationId, $rankingId)
     {
@@ -160,6 +183,9 @@ class Client
      * Get all available leagues
      *
      * @return array
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getLeagues()
     {
@@ -173,6 +199,9 @@ class Client
      *
      * @param string $tag
      * @return Player
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     public function getPlayer($tag)
     {
@@ -183,12 +212,26 @@ class Client
 
     /**
      * @param $url
-     * @return array
+     * @return mixed
+     *
+     * @throws BadTokenException
+     * @throws RequestException
      */
     protected function request($url)
     {
-        $response = $this->getHttpClient()
-            ->request('GET', $url, ['headers' => ['authorization' => 'Bearer ' . $this->getToken()]]);
+        try {
+            $response = $this->getHttpClient()
+                ->request('GET', $url, ['headers' => ['authorization' => 'Bearer ' . $this->getToken()]]);
+        } catch (RequestException $x) {
+            switch ($x->getCode()) {
+                case 403:
+                    throw new BadTokenException();
+                    break;
+                default:
+                    throw $x;
+                    break;
+            }
+        }
 
         return ResponseMediator::convertResponseToArray($response);
     }
