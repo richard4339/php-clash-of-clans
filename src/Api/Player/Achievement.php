@@ -15,6 +15,7 @@ use ClashOfClans\Api\AbstractResource;
  * @method int target()
  * @method string info()
  * @method string completionInfo()
+ * @method string village()
  */
 class Achievement extends AbstractResource
 {

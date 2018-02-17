@@ -12,6 +12,7 @@ use ClashOfClans\Api\AbstractResource;
  * @method string name()
  * @method int level()
  * @method int maxLevel()
+ * @method string village()
  */
 class Spell extends AbstractResource
 {

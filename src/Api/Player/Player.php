@@ -22,6 +22,7 @@ use ClashOfClans\Api\Clan\Clan;
  * @method int versusTrophies()
  * @method int bestVersusTrophies()
  * @method int versusBattleWins()
+ * @method int versusBattleWinCount()
  * @method string role()
  * @method int donations()
  * @method int donationsReceived()
